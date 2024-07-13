@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 25px 320px;
+  /* padding: 0px 50px; */
+  padding-left: 20px;
+}
+.header a .logo {
+  width: 130px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header-right a {
+  color: #333333;
+  text-decoration: none;
+  color: #000;
+}
+.aboutlink {
+  /* margin: 3px;
+    padding: 2px; */
+  /* display: block; */
+  background-color: #fcf5e9;
+  padding: 12px;
+  border-top: 5px;
+  border-right: 5px;
+  border-bottom: 5px;
+  border-left: 5px;
+  font-weight: 600;
+}
+.header-right a:hover {
+  background-color: #fcf5e9;
+  padding: 12px;
+  border-top: 5px;
+  border-right: 5px;
+  border-bottom: 5px;
+  border-left: 5px;
+}
+.center-quote h1 {
+  width: 1100px;
+  margin: 100px auto;
+  padding: 90px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.center-quote span {
+  background-color: #fcf5e9;
+  /* padding: 10px; */
+  border-top: 5px;
+  border-right: 5px;
+  border-bottom: 5px;
+  border-left: 5px;
+}
+.services {
+  background-color: #333333;
+  color: #fff;
+  height: 340px;
+  padding: 50px;
+}
+.services h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.serv {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 25px;
+  margin: 25px auto;
+  /* padding-bottom: 5px; */
+}
+.serv p {
+  padding-top: 16px;
+}
+.team {
+  margin: 24px auto;
+  padding: 20px 5px;
+  text-align: center;
+  font-size: 17px;
+}
+.imgwrap {
+  margin: 24px auto;
+  padding: 20px 5px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.team img {
+  width: 440px;
+  height: 290px;
+  border-radius: 10px;
+}
+.imgwrap p {
+  text-align: left;
+  font-size: 16px;
+}
+.name {
+  font-weight: bold;
+}
+.footer {
+  max-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin: 30px auto;
+}
+.contact h3 {
+  /* display: flex;
+  flex-direction: column;
+  gap: 5px; */
+  /* display: block; */
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.footer img {
+  width: 130px;
+}
+.social i {
+  color: #333333;
+  padding: 4.5px;
+}
+.social h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
